@@ -1,0 +1,72 @@
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+#logo{
+    width: 250px;
+    height: 150px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+}
+#nav-links{
+    display: flex;
+    column-gap: 40px;
+}
+#hero-image{
+    width: 100vw;
+    height: 100vh ;
+    background-size: cover;
+}
+#hero-section span{
+    font-size: 50px;
+     font-weight: 100; 
+    position: absolute;
+    top: 50%;
+    line-height: 40px;
+} 
+#button{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    height: 60px;
+    border: none;
+    color: red;
+    border: none;
+    padding: 15px 20px 15px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 5px;
+
+}
+#menu-button{
+    position: absolute;
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 20px;
+    top: 90%;
+    left: 60%;
+    color: red;
+    border: none;
+    text-transform: uppercase;
+}
+#menu-button2{
+    position: absolute;
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 20px;
+    top: 90%;
+    left: 40%;
+    color: red;
+    border: none;
+    text-transform: uppercase;
+    
+
+}
