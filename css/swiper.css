@@ -1,0 +1,21 @@
+.swiper {
+    width: 70%;
+    height: 50%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    /* font-size: 18px; */
+    background-color:rgba(175, 156, 137, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  
+  .swiper-slide img{
+    width: 60%;
+    height: 60%;
+  
+  }
