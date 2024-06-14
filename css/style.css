@@ -5,9 +5,9 @@
   }
   
 #logo{
-    width: 200px;
-    height: 150px;
+    width: 13%;
     margin: 0%;
+    
 }
 nav{
     display: flex;
@@ -15,11 +15,12 @@ nav{
     padding: 10px 50px;
     align-items: center;
     position: fixed;
-    width: 94vw;
+    width: 92vw;
     z-index: 100;
     height: 60px;
     background-color:rgba(175, 156, 137, 0.7);
-    ;
+
+    
 
 }
 #nav-links{
@@ -30,6 +31,7 @@ nav{
     text-transform: uppercase;
     color: white;
     font-size: 12px;
+    justify-content: space-evenly;
 
 }
 
@@ -41,7 +43,7 @@ nav{
     height: 100vh ;
     background-size: cover;
     background-image: url(../assets/images/hero-image.jpg);
-
+margin-top: -10px;
 
 }
 #hero-overlay {
@@ -54,9 +56,10 @@ nav{
     font-size: 80px;
      font-weight: 200; 
     position: absolute;
-    color:rgb(221, 207, 215);
+    color:white;
     top: 50%;
     left: 20%;
+
 } 
 #menu-button:hover{
 color: palevioletred;
@@ -105,9 +108,22 @@ width: 80vw;
 .grid-container img{
     width: 100%;
     height: 80%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 10px;
     grid-column-start: 1;
     grid-row-end: 6;
     height: 520px;
 }
+
+#video-sec{
+    width: 80vw;
+    height: 60vh;
+    position: relative;
+    margin-bottom: 100px;
+    display: flex;
+
+}
+#video{
+    width: 100vw
+}
+
